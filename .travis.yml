@@ -2,9 +2,10 @@ language: ruby
 rvm:
 - 2.0.0
 - 2.1.0
+addons:
+  srcclr: true
 
 matrix:
   include:
-   - ruby:"2.0.0"
-    addons:
-      srcclr: true
+  - ruby:"2.0.0"
+  
