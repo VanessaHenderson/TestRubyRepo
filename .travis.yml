@@ -6,5 +6,5 @@ rvm:
 matrix:
   include:
    - ruby:"2.0.0"
-   addons:
-    srcclr: true
+    addons:
+      srcclr: true
